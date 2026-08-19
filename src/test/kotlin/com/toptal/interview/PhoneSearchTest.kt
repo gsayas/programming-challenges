@@ -14,9 +14,7 @@ class PhoneSearchTest {
             phoneSearch.solution(
                 arrayOf("pim", "pom"),
                 arrayOf("999999999", "777888999"),
-                "88999"
-            )
-        )
+                "88999"))
     }
 
     @Test
@@ -26,9 +24,7 @@ class PhoneSearchTest {
             phoneSearch.solution(
                 arrayOf("sander", "amy", "ann", "michael"),
                 arrayOf("123456789", "234567890", "789123456", "123123123"),
-                "1"
-            )
-        )
+                "1"))
     }
 
     @Test
@@ -38,8 +34,6 @@ class PhoneSearchTest {
             phoneSearch.solution(
                 arrayOf("adam", "eva", "leo"),
                 arrayOf("121212121", "111111111", "444555666"),
-                "112"
-            )
-        )
+                "112"))
     }
 }

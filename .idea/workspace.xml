@@ -7,19 +7,14 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rover/interview/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/PhoneSearchTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/PhoneSearchTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +46,8 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -76,6 +71,21 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,7 +97,13 @@
     "Gradle.FormatNumberTest.executor": "Run",
     "Gradle.FormatNumberTest.solution.executor": "Run",
     "Gradle.MergeStringsAlternativelyTest.executor": "Run",
+    "Gradle.PhoneSearchTest.executor": "Run",
     "Gradle.PhoneSearchTest.solution.executor": "Run",
+    "Gradle.SolutionTest.executor": "Run",
+    "Gradle.SolutionTest.solution.executor": "Run",
+    "Gradle.programmingChallenges [:org.kotlin.tour.BeginnerKt.main()].executor": "Run",
+    "Gradle.programmingChallenges [:org.kotlin.tour.MapsKt.main()].executor": "Run",
+    "Gradle.programmingChallenges [:org.kotlin.tour.PlaygroundKt.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -119,8 +135,8 @@
       <recent name="org.example.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PhoneSearchTest">
-    <configuration name="FormatNumberKotlinTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SolutionTest">
+    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.toptal.interview.FormatNumberKotlinTest&quot;" />
+            <option value="&quot;com.toptal.interview.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +163,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="FormatNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.solution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +176,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.toptal.interview.FormatNumberTest&quot;" />
+            <option value="&quot;com.toptal.interview.SolutionTest.solution&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,94 +190,34 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="FormatNumberTest.case3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.toptal.interview.FormatNumberTest.case3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
+    <configuration name="BeginnerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kotlin.tour.BeginnerKt" />
+      <module name="programmingChallenges.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PhoneSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.toptal.interview.PhoneSearchTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
+    <configuration name="MapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kotlin.tour.MapsKt" />
+      <module name="programmingChallenges.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PhoneSearchTest.solution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.toptal.interview.PhoneSearchTest.solution&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
+    <configuration name="PlaygroundKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kotlin.tour.PlaygroundKt" />
+      <module name="programmingChallenges.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PhoneSearchTest" />
-        <item itemvalue="Gradle.PhoneSearchTest.solution" />
-        <item itemvalue="Gradle.FormatNumberKotlinTest" />
-        <item itemvalue="Gradle.FormatNumberTest" />
-        <item itemvalue="Gradle.FormatNumberTest.case3" />
+        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.solution" />
+        <item itemvalue="Kotlin.PlaygroundKt" />
+        <item itemvalue="Kotlin.MapsKt" />
+        <item itemvalue="Kotlin.BeginnerKt" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +253,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

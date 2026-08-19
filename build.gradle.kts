@@ -25,7 +25,7 @@ configure<com.diffplug.gradle.spotless.SpotlessExtension> {
     kotlin {
         target("src/**/*.kt")
         ktfmt("0.51").kotlinlangStyle().configure {
-            it.setMaxWidth(80)
+            it.setMaxWidth(120)
             it.setBlockIndent(4)
             it.setContinuationIndent(4)
             it.setRemoveUnusedImports(false)
