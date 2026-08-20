@@ -1,12 +1,13 @@
 package com.anthropic
 
-import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
-class SolutionTest {
+class ManhattanCleverTest {
     @Test
-    fun solution() {
-        val result = solution(listOf("X00", "000", "XX0"))
+    fun case1() {
+        val result = ManhattanClever().solution(listOf("XOO", "OOO", "XXO"))
         assertEquals(listOf("X 1 0", "3 3 1", "X X 1"), result)
     }
 
@@ -24,7 +25,7 @@ class SolutionTest {
                 "XOXXOXOX"
             )
         )
-        assertEquals(
+        Assertions.assertEquals(
             listOf(
                 "X 1 1 X X X 3 2",
                 "3 3 3 5 X 5 X X",

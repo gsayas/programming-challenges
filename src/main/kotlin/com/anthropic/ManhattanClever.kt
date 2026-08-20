@@ -1,7 +1,7 @@
 package com.anthropic
 
 
-class MinesweeperClever {
+class ManhattanClever {
 
     private val neighborOffsets = listOf(
         -1 to -1, -1 to 0, -1 to 1,
@@ -16,8 +16,10 @@ class MinesweeperClever {
                     'X'
                 } else {
                     neighborOffsets
-                        .count { (rowOffset, columnOffset) ->
-                            true
+                        .count { (rowOffset, cellOffset) ->
+                            listOfRows
+                                .getOrNull(rowIndex + rowOffset)
+                                ?.getOrNull(cellIndex + cellOffset) == 'X'
                         }
                 }
             }.joinToString(" ")
