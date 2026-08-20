@@ -7,14 +7,46 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="D-day minus 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rover/interview/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/PhoneSearchTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/PhoneSearchTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toptal/interview/FormatNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anthropic/FormatNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CanPlaceFlowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/ExtraCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ExtraCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/FindDifferenceArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/FindDifferenceArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/GCDStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/GCDStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/HighestAltitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/HighestAltitude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/MaximumAverageSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/MaximumAverageSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/MergeStringsAlternatively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/MergeStringsAlternatively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/PivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/RecentCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RecentCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/ReverseVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseVowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/UniqueNumberOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/UniqueNumberOccurrences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/EqualRowColumnPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/EqualRowColumnPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/ProductArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/ProductArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/ReverseWordsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/ReverseWordsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/StringsAreClose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/StringsAreClose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/notes/Ascii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/notes/Ascii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/notes/CharUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/notes/CharUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/MinesweeperClever.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/MinesweeperClever.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/toptal/interview/FormatNumberKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/FormatNumberKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/toptal/interview/GraphPathExists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/GraphPathExists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/toptal/interview/Minesweeper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/Minesweeper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/toptal/interview/PhoneSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/PhoneSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/kotlin/tour/Beginner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/kotlin/tour/Basics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/toptal/interview/FormatNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anthropic/FormatNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/easy/MergeStringsAlternativelyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/easy/MergeStringsAlternativelyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/medium/RemoveStarsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/medium/RemoveStarsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/medium/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/medium/StringCompressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/MinesweeperCleverTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/MinesweeperCleverTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/FormatNumberKotlinTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/FormatNumberKotlinTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/GraphPathExistsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/GraphPathExistsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/PhoneSearchTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/PhoneSearchTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/toptal/interview/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/SolutionTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +78,8 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Kotlin JUnit5 Test Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -97,6 +129,7 @@
     "Gradle.FormatNumberTest.executor": "Run",
     "Gradle.FormatNumberTest.solution.executor": "Run",
     "Gradle.MergeStringsAlternativelyTest.executor": "Run",
+    "Gradle.MinesweeperCleverTest.case1.executor": "Run",
     "Gradle.PhoneSearchTest.executor": "Run",
     "Gradle.PhoneSearchTest.solution.executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
@@ -116,7 +149,9 @@
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/giovannysayas/IdeaProjects/programmingChallenges/src/test/kotlin/com/toptal/interview",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.sourceCode.kotlin"
   },
@@ -135,7 +170,34 @@
       <recent name="org.example.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest">
+  <component name="RunManager" selected="Gradle.MinesweeperCleverTest.case1">
+    <configuration name="MinesweeperCleverTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.toptal.interview.MinesweeperCleverTest.case1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,13 +252,6 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="BeginnerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kotlin.tour.BeginnerKt" />
-      <module name="programmingChallenges.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kotlin.tour.MapsKt" />
       <module name="programmingChallenges.main" />
@@ -213,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinesweeperCleverTest.case1" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Gradle.SolutionTest.solution" />
         <item itemvalue="Kotlin.PlaygroundKt" />
         <item itemvalue="Kotlin.MapsKt" />
-        <item itemvalue="Kotlin.BeginnerKt" />
       </list>
     </recent_temporary>
   </component>
@@ -256,68 +311,69 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="D-day minus 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="D-day minus 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>21</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>23</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>46</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>42</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>37</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>19</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/RemoveStars.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
           <line>17</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/easy/RecentCounter.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/RecentCounter.java</url>
           <line>21</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/easy/MaximumAverageSubarray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/MaximumAverageSubarray.java</url>
           <line>20</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/easy/ReverseLinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java</url>
           <line>35</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/easy/ReverseLinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java</url>
           <line>44</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/easy/ReverseLinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java</url>
           <line>37</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
