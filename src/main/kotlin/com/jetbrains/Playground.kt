@@ -1,4 +1,4 @@
-package org.kotlin.tour
+package com.jetbrains
 
 fun main() {
 

@@ -7,12 +7,11 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="D-day minus 1">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="Cleaning Up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/Minesweeper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/Manhattan.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/MinesweeperClever.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/anthropic/ManhattanClever.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/MinesweeperCleverTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/anthropic/ManhattanCleverTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/kotlin/tour/Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jetbrains/Basics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/kotlin/tour/Maps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jetbrains/Maps.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/kotlin/tour/Playground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jetbrains/Playground.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin JUnit5 Test Class" />
+        <option value="new-sketch" />
       </list>
     </option>
   </component>
@@ -112,6 +112,8 @@
     "Gradle.MinesweeperCleverTest.executor": "Run",
     "Gradle.PhoneSearchTest.executor": "Run",
     "Gradle.PhoneSearchTest.solution.executor": "Run",
+    "Gradle.PriorityQueueExampleTest.executor": "Run",
+    "Gradle.PriorityQueueExampleTest.solution.executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
     "Gradle.SolutionTest.solution.executor": "Run",
     "Gradle.programmingChallenges [:org.kotlin.tour.BeginnerKt.main()].executor": "Run",
@@ -129,13 +131,13 @@
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/giovannysayas/IdeaProjects/programmingChallenges/src/test/kotlin/com/toptal/interview",
+    "last_directory_selection": "/Users/giovannysayas/IdeaProjects/programmingChallenges/src/test/kotlin/com/anthropic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -148,6 +150,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.anthropic" />
       <recent name="com.toptal.interview" />
       <recent name="org.example.easy" />
     </key>
@@ -234,14 +237,72 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="PriorityQueueExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.anthropic.PriorityQueueExampleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PriorityQueueExampleTest.solution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.anthropic.PriorityQueueExampleTest.solution&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.PriorityQueueExampleTest" />
       <item itemvalue="Gradle.ManhattanCleverTest" />
+      <item itemvalue="Gradle.PriorityQueueExampleTest.solution" />
       <item itemvalue="Gradle.Anthropic.case1" />
       <item itemvalue="Gradle.AnthropicCase1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ManhattanCleverTest" />
+        <item itemvalue="Gradle.PriorityQueueExampleTest" />
+        <item itemvalue="Gradle.PriorityQueueExampleTest.solution" />
         <item itemvalue="Gradle.Anthropic.case1" />
         <item itemvalue="Gradle.AnthropicCase1" />
       </list>
@@ -284,7 +345,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="D-day minus 2" />
     <MESSAGE value="D-day minus 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="D-day minus 1" />
+    <MESSAGE value="Cleaning Up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning Up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
