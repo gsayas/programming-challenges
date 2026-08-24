@@ -1,4 +1,4 @@
-package com.jetbrains
+package kotlintour
 
 fun main() {
 

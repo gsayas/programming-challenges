@@ -1,4 +1,4 @@
-package com.anthropic
+package me.giocode
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -1,6 +1,6 @@
-package com.anthropic
+package me.giocode
 
-import java.util.PriorityQueue
+import java.util.*
 
 class PriorityQueueExample {
     fun solution(listOfTuples: List<Pair<Int, Int>>): Int {

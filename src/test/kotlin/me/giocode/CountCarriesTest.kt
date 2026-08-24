@@ -1,4 +1,4 @@
-package com.anthropic
+package me.giocode
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals

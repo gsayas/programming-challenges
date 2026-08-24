@@ -1,4 +1,4 @@
-package com.anthropic
+package me.giocode
 
 
 class ManhattanClever {
