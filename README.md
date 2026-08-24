@@ -1,4 +1,4 @@
-# This repo is a hommage to Miguel Ángel Revilla Ramos and his [UVa online judge](https://en.wikipedia.org/wiki/UVa_Online_Judge)
+# This repo is a homage to Miguel Ángel Revilla Ramos and his [UVa online judge](https://en.wikipedia.org/wiki/UVa_Online_Judge)
 
 Planta una semilla y verás crecer un bosque
 
