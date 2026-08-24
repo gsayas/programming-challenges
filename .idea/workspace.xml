@@ -7,7 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="Cleaning Up">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="before publishing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -343,7 +343,8 @@
     <MESSAGE value="D-day minus 2" />
     <MESSAGE value="D-day minus 1" />
     <MESSAGE value="Cleaning Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning Up" />
+    <MESSAGE value="before publishing" />
+    <option name="LAST_COMMIT_MESSAGE" value="before publishing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
