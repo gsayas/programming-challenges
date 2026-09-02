@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="publishing">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="ValidAnagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/ValidAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/ValidAnagram.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +115,7 @@
     "Gradle.FormatNumberTest.case3.executor": "Run",
     "Gradle.FormatNumberTest.executor": "Run",
     "Gradle.FormatNumberTest.solution.executor": "Run",
+    "Gradle.GroupAnagramsTest.groupAnagrams.executor": "Run",
     "Gradle.ManhattanCleverTest (1).executor": "Run",
     "Gradle.ManhattanCleverTest.executor": "Run",
     "Gradle.MergeStringsAlternativelyTest.executor": "Run",
@@ -153,7 +153,7 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -172,7 +172,34 @@
       <recent name="org.example.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ValidAnagramTest">
+  <component name="RunManager" selected="Gradle.GroupAnagramsTest.groupAnagrams">
+    <configuration name="GroupAnagramsTest.groupAnagrams" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.giocode.GroupAnagramsTest.groupAnagrams&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ManhattanCleverTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,33 +241,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.anthropic.ManhattanCleverTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PriorityQueueExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.anthropic.PriorityQueueExampleTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,19 +309,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.GroupAnagramsTest.groupAnagrams" />
       <item itemvalue="Gradle.ManhattanCleverTest (1)" />
       <item itemvalue="Gradle.ValidAnagramTest" />
       <item itemvalue="Gradle.ValidAnagramTest.isAnagram" />
-      <item itemvalue="Gradle.PriorityQueueExampleTest" />
       <item itemvalue="Gradle.ManhattanCleverTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupAnagramsTest.groupAnagrams" />
         <item itemvalue="Gradle.ValidAnagramTest" />
         <item itemvalue="Gradle.ValidAnagramTest.isAnagram" />
         <item itemvalue="Gradle.ManhattanCleverTest (1)" />
         <item itemvalue="Gradle.ManhattanCleverTest" />
-        <item itemvalue="Gradle.PriorityQueueExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +365,8 @@
     <MESSAGE value="Cleaning Up" />
     <MESSAGE value="before publishing" />
     <MESSAGE value="publishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="publishing" />
+    <MESSAGE value="ValidAnagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="ValidAnagram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
