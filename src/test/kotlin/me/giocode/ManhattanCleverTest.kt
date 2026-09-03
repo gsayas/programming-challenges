@@ -13,7 +13,7 @@ class ManhattanCleverTest {
 
     @Test
     fun case2() {
-        val result = solution(
+        val result = Manhattan().solution(
             listOf(
                 "XOOXXXOO",
                 "OOOOXOXX",

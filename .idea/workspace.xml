@@ -7,9 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="ValidAnagram">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="GroupAnagrams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/ValidAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/ValidAnagram.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/Manhattan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/Manhattan.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/me/giocode/ManhattanCleverTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/me/giocode/ManhattanCleverTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,12 +112,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Anthropic.case1.executor": "Run",
+    "Gradle.DesignHitCounterTest.case1.executor": "Run",
+    "Gradle.DesignHitCounterTest.case2.executor": "Run",
+    "Gradle.DesignHitCounterTest.executor": "Run",
     "Gradle.FormatNumberKotlinTest.executor": "Run",
     "Gradle.FormatNumberTest.case3.executor": "Run",
     "Gradle.FormatNumberTest.executor": "Run",
     "Gradle.FormatNumberTest.solution.executor": "Run",
     "Gradle.GroupAnagramsTest.groupAnagrams.executor": "Run",
     "Gradle.ManhattanCleverTest (1).executor": "Run",
+    "Gradle.ManhattanCleverTest.case1.executor": "Run",
     "Gradle.ManhattanCleverTest.executor": "Run",
     "Gradle.MergeStringsAlternativelyTest.executor": "Run",
     "Gradle.MinesweeperCleverTest.case1 (1).executor": "Run",
@@ -153,7 +158,7 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -171,9 +176,12 @@
       <recent name="com.toptal.interview" />
       <recent name="org.example.easy" />
     </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="me.giocode" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupAnagramsTest.groupAnagrams">
-    <configuration name="GroupAnagramsTest.groupAnagrams" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DesignHitCounterTest">
+    <configuration name="DesignHitCounterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -186,7 +194,61 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;me.giocode.GroupAnagramsTest.groupAnagrams&quot;" />
+            <option value="&quot;me.giocode.DesignHitCounterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DesignHitCounterTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.giocode.DesignHitCounterTest.case1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DesignHitCounterTest.case2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.giocode.DesignHitCounterTest.case2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -227,7 +289,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ManhattanCleverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ManhattanCleverTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -240,61 +302,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.anthropic.ManhattanCleverTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.giocode.ValidAnagramTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ValidAnagramTest.isAnagram" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.giocode.ValidAnagramTest.isAnagram&quot;" />
+            <option value="&quot;me.giocode.ManhattanCleverTest.case1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,19 +317,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.GroupAnagramsTest.groupAnagrams" />
+      <item itemvalue="Gradle.DesignHitCounterTest" />
+      <item itemvalue="Gradle.DesignHitCounterTest.case1" />
+      <item itemvalue="Gradle.DesignHitCounterTest.case2" />
       <item itemvalue="Gradle.ManhattanCleverTest (1)" />
-      <item itemvalue="Gradle.ValidAnagramTest" />
-      <item itemvalue="Gradle.ValidAnagramTest.isAnagram" />
-      <item itemvalue="Gradle.ManhattanCleverTest" />
+      <item itemvalue="Gradle.ManhattanCleverTest.case1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GroupAnagramsTest.groupAnagrams" />
-        <item itemvalue="Gradle.ValidAnagramTest" />
-        <item itemvalue="Gradle.ValidAnagramTest.isAnagram" />
+        <item itemvalue="Gradle.DesignHitCounterTest" />
+        <item itemvalue="Gradle.DesignHitCounterTest.case1" />
+        <item itemvalue="Gradle.DesignHitCounterTest.case2" />
         <item itemvalue="Gradle.ManhattanCleverTest (1)" />
-        <item itemvalue="Gradle.ManhattanCleverTest" />
+        <item itemvalue="Gradle.ManhattanCleverTest.case1" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +374,8 @@
     <MESSAGE value="before publishing" />
     <MESSAGE value="publishing" />
     <MESSAGE value="ValidAnagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="ValidAnagram" />
+    <MESSAGE value="GroupAnagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="GroupAnagrams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,6 +442,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="sum - visitedOffset" />
+        <watch expression="timestamp - key" />
+        <watch expression="counters.getOrDefault(key, 1)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
