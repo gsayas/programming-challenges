@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="GroupAnagrams">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="DesignHitCounter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/Manhattan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/Manhattan.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/me/giocode/ManhattanCleverTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/me/giocode/ManhattanCleverTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/DesignHitCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/DesignHitCounter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +374,8 @@
     <MESSAGE value="publishing" />
     <MESSAGE value="ValidAnagram" />
     <MESSAGE value="GroupAnagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="GroupAnagrams" />
+    <MESSAGE value="DesignHitCounter" />
+    <option name="LAST_COMMIT_MESSAGE" value="DesignHitCounter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
