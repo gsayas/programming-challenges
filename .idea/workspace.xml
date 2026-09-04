@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="DesignHitCounter">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/DesignHitCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/DesignHitCounter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +63,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gsayas"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gsayas&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gsayas/programming-challenges.git",
-    "accountId": "a993a3a1-c64d-47d9-870d-70c6ab0992d5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gsayas/programming-challenges.git&quot;,
+    &quot;accountId&quot;: &quot;a993a3a1-c64d-47d9-870d-70c6ab0992d5&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -105,12 +105,14 @@
     </option>
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Anthropic.case1.executor": "Run",
+    "Gradle.CoinChangeTest.coinChange.executor": "Run",
     "Gradle.DesignHitCounterTest.case1.executor": "Run",
     "Gradle.DesignHitCounterTest.case2.executor": "Run",
     "Gradle.DesignHitCounterTest.executor": "Run",
@@ -130,8 +132,12 @@
     "Gradle.PhoneSearchTest.solution.executor": "Run",
     "Gradle.PriorityQueueExampleTest.executor": "Run",
     "Gradle.PriorityQueueExampleTest.solution.executor": "Run",
+    "Gradle.RandomizedSetTest.case1.executor": "Run",
+    "Gradle.RandomizedSetTest.executor": "Run",
+    "Gradle.RandomizedSetTest.insertion order.executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
     "Gradle.SolutionTest.solution.executor": "Run",
+    "Gradle.StringCompressionTest.executor": "Run",
     "Gradle.ValidAnagramTest.executor": "Run",
     "Gradle.ValidAnagramTest.isAnagram.executor": "Run",
     "Gradle.programmingChallenges [:org.kotlin.tour.BeginnerKt.main()].executor": "Run",
@@ -179,8 +185,8 @@
       <recent name="me.giocode" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DesignHitCounterTest">
-    <configuration name="DesignHitCounterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RandomizedSetTest.insertion order">
+    <configuration name="CoinChangeTest.coinChange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +199,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;me.giocode.DesignHitCounterTest&quot;" />
+            <option value="&quot;me.giocode.CoinChangeTest.coinChange&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,7 +213,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="DesignHitCounterTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RandomizedSetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -220,7 +226,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;me.giocode.DesignHitCounterTest.case1&quot;" />
+            <option value="&quot;me.giocode.RandomizedSetTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,7 +240,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="DesignHitCounterTest.case2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RandomizedSetTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -247,7 +253,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;me.giocode.DesignHitCounterTest.case2&quot;" />
+            <option value="&quot;me.giocode.RandomizedSetTest.case1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -261,7 +267,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ManhattanCleverTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RandomizedSetTest.insertion order" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -274,7 +280,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;me.giocode.ManhattanCleverTest&quot;" />
+            <option value="&quot;me.giocode.RandomizedSetTest.insertion order&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -288,7 +294,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ManhattanCleverTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringCompressionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -301,7 +307,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;me.giocode.ManhattanCleverTest.case1&quot;" />
+            <option value="&quot;com.leetcode.medium.StringCompressionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -316,19 +322,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.DesignHitCounterTest" />
-      <item itemvalue="Gradle.DesignHitCounterTest.case1" />
-      <item itemvalue="Gradle.DesignHitCounterTest.case2" />
-      <item itemvalue="Gradle.ManhattanCleverTest (1)" />
-      <item itemvalue="Gradle.ManhattanCleverTest.case1" />
+      <item itemvalue="Gradle.RandomizedSetTest" />
+      <item itemvalue="Gradle.RandomizedSetTest.case1" />
+      <item itemvalue="Gradle.RandomizedSetTest.insertion order" />
+      <item itemvalue="Gradle.CoinChangeTest.coinChange" />
+      <item itemvalue="Gradle.StringCompressionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DesignHitCounterTest" />
-        <item itemvalue="Gradle.DesignHitCounterTest.case1" />
-        <item itemvalue="Gradle.DesignHitCounterTest.case2" />
-        <item itemvalue="Gradle.ManhattanCleverTest (1)" />
-        <item itemvalue="Gradle.ManhattanCleverTest.case1" />
+        <item itemvalue="Gradle.RandomizedSetTest.insertion order" />
+        <item itemvalue="Gradle.RandomizedSetTest" />
+        <item itemvalue="Gradle.RandomizedSetTest.case1" />
+        <item itemvalue="Gradle.CoinChangeTest.coinChange" />
+        <item itemvalue="Gradle.StringCompressionTest" />
       </list>
     </recent_temporary>
   </component>
