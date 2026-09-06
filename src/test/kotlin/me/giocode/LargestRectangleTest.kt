@@ -10,4 +10,19 @@ class LargestRectangleTest {
         assertEquals(9, res)
     }
 
+    @Test
+    fun case2() {
+        val res = LargestRectangle().largestRectangle(arrayOf(5, 2, 4))
+        assertEquals(5, res)
+    }
+
+    @Test
+    fun case3() {
+        val res = LargestRectangle().largestRectangle(arrayOf(1, 3, 5, 9, 11))
+        assertEquals(18, res)
+    }
+
+
+
+
 }
