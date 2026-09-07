@@ -7,10 +7,8 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="LasgestRectangle">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="LargestRectangle attempt 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/giocode/LargestRectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/giocode/LargestRectangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/me/giocode/LargestRectangleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/me/giocode/LargestRectangleTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +118,8 @@
     "Gradle.DesignHitCounterTest.case1.executor": "Run",
     "Gradle.DesignHitCounterTest.case2.executor": "Run",
     "Gradle.DesignHitCounterTest.executor": "Run",
+    "Gradle.DiagonalDifferenceTest.diagonalDifference.executor": "Debug",
+    "Gradle.DiagonalDifferenceTest.executor": "Run",
     "Gradle.FormatNumberKotlinTest.executor": "Run",
     "Gradle.FormatNumberTest.case3.executor": "Run",
     "Gradle.FormatNumberTest.executor": "Run",
@@ -191,7 +191,61 @@
       <recent name="me.giocode" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LargestRectangleTest">
+  <component name="RunManager" selected="Gradle.DiagonalDifferenceTest">
+    <configuration name="DiagonalDifferenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.giocode.DiagonalDifferenceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DiagonalDifferenceTest.diagonalDifference" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.giocode.DiagonalDifferenceTest.diagonalDifference&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LargestRectangleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -246,60 +300,6 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="RandomizedSetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.giocode.RandomizedSetTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RandomizedSetTest.case1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.giocode.RandomizedSetTest.case1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
     <configuration name="RandomizedSetTest.insertion order" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -328,19 +328,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.DiagonalDifferenceTest" />
+      <item itemvalue="Gradle.DiagonalDifferenceTest.diagonalDifference" />
       <item itemvalue="Gradle.LargestRectangleTest" />
       <item itemvalue="Gradle.LargestRectangleTest.largestRectangle" />
-      <item itemvalue="Gradle.RandomizedSetTest" />
-      <item itemvalue="Gradle.RandomizedSetTest.case1" />
       <item itemvalue="Gradle.RandomizedSetTest.insertion order" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DiagonalDifferenceTest" />
+        <item itemvalue="Gradle.DiagonalDifferenceTest.diagonalDifference" />
         <item itemvalue="Gradle.LargestRectangleTest" />
         <item itemvalue="Gradle.LargestRectangleTest.largestRectangle" />
         <item itemvalue="Gradle.RandomizedSetTest.insertion order" />
-        <item itemvalue="Gradle.RandomizedSetTest" />
-        <item itemvalue="Gradle.RandomizedSetTest.case1" />
       </list>
     </recent_temporary>
   </component>
@@ -389,73 +389,10 @@
     <MESSAGE value="DesignHitCounter" />
     <MESSAGE value="RandomizedSet" />
     <MESSAGE value="LasgestRectangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="LasgestRectangle" />
+    <MESSAGE value="LargestRectangle attempt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="LargestRectangle attempt 2" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/RemoveStars.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/RecentCounter.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/MaximumAverageSubarray.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseLinkedList.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="sum - visitedOffset" />
