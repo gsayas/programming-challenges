@@ -1,4 +1,6 @@
-package me.giocode
+package hackerrank
+
+import kotlin.math.abs
 
 class DiagonalDifference {
 
@@ -15,7 +17,7 @@ class DiagonalDifference {
         }
 
 
-        return kotlin.math.abs(leftRightSum - rightLeftSum)
+        return abs(leftRightSum - rightLeftSum)
 
     }
 

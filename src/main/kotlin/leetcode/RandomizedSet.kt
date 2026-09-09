@@ -1,4 +1,4 @@
-package me.giocode
+package leetcode
 
 import kotlin.random.Random
 

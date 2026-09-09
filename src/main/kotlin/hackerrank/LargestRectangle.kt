@@ -1,4 +1,4 @@
-package me.giocode
+package hackerrank
 
 class LargestRectangle {
 

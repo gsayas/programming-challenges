@@ -1,4 +1,4 @@
-package me.giocode
+package leetcode
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals

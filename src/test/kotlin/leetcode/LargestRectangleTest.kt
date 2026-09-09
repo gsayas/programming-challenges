@@ -1,5 +1,6 @@
-package me.giocode
+package leetcode
 
+import hackerrank.LargestRectangle
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -21,8 +22,6 @@ class LargestRectangleTest {
         val res = LargestRectangle().largestRectangle(arrayOf(1, 3, 5, 9, 11))
         assertEquals(18, res)
     }
-
-
 
 
 }

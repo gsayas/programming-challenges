@@ -1,4 +1,4 @@
-package me.giocode
+package leetcode
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
@@ -20,7 +20,8 @@ class PriorityQueueExampleTest {
 
     @Test
     fun `makes a customer wait when every cashier is busy`() {
-        val result = PriorityQueueExample().solution(listOf(0 to 10, 0 to 10, 0 to 10, 1 to 1))
+        val result =
+            PriorityQueueExample().solution(listOf(0 to 10, 0 to 10, 0 to 10, 1 to 1))
 
         assertEquals(11, result)
     }

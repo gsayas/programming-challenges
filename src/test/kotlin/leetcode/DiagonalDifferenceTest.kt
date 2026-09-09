@@ -1,5 +1,6 @@
-package me.giocode
+package leetcode
 
+import hackerrank.DiagonalDifference
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

@@ -1,4 +1,4 @@
-package me.giocode
+package leetcode
 
 
 class ManhattanClever {
