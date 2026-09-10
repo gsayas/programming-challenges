@@ -1,6 +1,7 @@
 package affirm
 
 import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
 class FindEstablishedUsersTest {
     @Test
@@ -16,7 +17,7 @@ class FindEstablishedUsersTest {
             "2025-01-02,Phone,uuid2,50"
         )
         val res = TrustedClients().findEstablishedUsers(csv1, csv2)
-        println(res)
+        assertEquals(listOf("uuid1", "uuid2"), res)
     }
 
 }

@@ -5,14 +5,9 @@ class TrustedClients {
     fun findEstablishedUsers(logA: List<String>, logB: List<String>): List<String> {
 
         val logs: List<String> = logA + logB
-        var structuredLogs: MutableList<List<String>> = mutableListOf()
+        val structuredLogs = logs.map { log -> log.split(",") }
 
-        for (str in logs) {
-            structuredLogs.add(str.split(","))
-        }
-
-        val map: Map<String, List<List<String>>> = structuredLogs
-            .groupBy { it[2] }
+        val map: Map<String, List<List<String>>> = structuredLogs.groupBy { columns -> columns[2] }
 
         return map
             .filterValues(::checkTrustCriteria)

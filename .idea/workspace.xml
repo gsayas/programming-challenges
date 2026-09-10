@@ -7,10 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="ShortestUncommonSubstring">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/leetcode/DiagonalDifferenceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/hackerrank/DiagonalDifferenceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/leetcode/LargestRectangleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/hackerrank/LargestRectangleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/affirm/TrustedClients.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/affirm/TrustedClients.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/affirm/FindEstablishedUsersTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/affirm/FindEstablishedUsersTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,8 @@
     <MESSAGE value="DiagonalDifference" />
     <MESSAGE value="cleaning up naming" />
     <MESSAGE value="ShortestUncommonSubstring" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShortestUncommonSubstring" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
