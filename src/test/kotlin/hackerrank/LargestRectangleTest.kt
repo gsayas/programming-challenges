@@ -1,6 +1,5 @@
-package leetcode
+package hackerrank
 
-import hackerrank.LargestRectangle
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
