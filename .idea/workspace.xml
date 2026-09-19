@@ -9,8 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/affirm/TrustedClients.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/affirm/TrustedClients.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/affirm/FindEstablishedUsersTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/affirm/FindEstablishedUsersTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,84 +111,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Anthropic.case1.executor": "Run",
-    "Gradle.CoinChangeTest.coinChange.executor": "Run",
-    "Gradle.DesignHitCounterTest.case1.executor": "Run",
-    "Gradle.DesignHitCounterTest.case2.executor": "Run",
-    "Gradle.DesignHitCounterTest.executor": "Run",
-    "Gradle.DiagonalDifferenceTest.diagonalDifference.executor": "Debug",
-    "Gradle.DiagonalDifferenceTest.executor": "Run",
-    "Gradle.FindEstablishedUsersTest.findEstablishedUsers.executor": "Run",
-    "Gradle.FormatNumberKotlinTest.executor": "Run",
-    "Gradle.FormatNumberTest.case3.executor": "Run",
-    "Gradle.FormatNumberTest.executor": "Run",
-    "Gradle.FormatNumberTest.solution.executor": "Run",
-    "Gradle.GroupAnagramsTest.groupAnagrams.executor": "Run",
-    "Gradle.LargestRectangleTest.executor": "Run",
-    "Gradle.LargestRectangleTest.largestRectangle.executor": "Run",
-    "Gradle.ManhattanCleverTest (1).executor": "Run",
-    "Gradle.ManhattanCleverTest.case1.executor": "Run",
-    "Gradle.ManhattanCleverTest.executor": "Run",
-    "Gradle.MergeStringsAlternativelyTest.executor": "Run",
-    "Gradle.MinesweeperCleverTest.case1 (1).executor": "Run",
-    "Gradle.MinesweeperCleverTest.case1.executor": "Run",
-    "Gradle.MinesweeperCleverTest.executor": "Run",
-    "Gradle.PhoneSearchTest.executor": "Run",
-    "Gradle.PhoneSearchTest.solution.executor": "Run",
-    "Gradle.PriorityQueueExampleTest.executor": "Run",
-    "Gradle.PriorityQueueExampleTest.solution.executor": "Run",
-    "Gradle.RandomizedSetTest.case1.executor": "Run",
-    "Gradle.RandomizedSetTest.executor": "Run",
-    "Gradle.RandomizedSetTest.insertion order.executor": "Run",
-    "Gradle.ShortestUncommonSubstringArrayTest._242.executor": "Run",
-    "Gradle.ShortestUncommonSubstringArrayTest.executor": "Run",
-    "Gradle.ShortestUncommonSubstringArrayTest.shortestSubstrings.executor": "Run",
-    "Gradle.ShortestUncommonSubstringArrayTest.substrings.executor": "Debug",
-    "Gradle.SolutionTest.executor": "Run",
-    "Gradle.SolutionTest.solution.executor": "Run",
-    "Gradle.StringCompressionTest.executor": "Run",
-    "Gradle.ValidAnagramTest.executor": "Run",
-    "Gradle.ValidAnagramTest.isAnagram.executor": "Run",
-    "Gradle.programmingChallenges [:org.kotlin.tour.BeginnerKt.main()].executor": "Run",
-    "Gradle.programmingChallenges [:org.kotlin.tour.MapsKt.main()].executor": "Run",
-    "Gradle.programmingChallenges [:org.kotlin.tour.PlaygroundKt.main()].executor": "Run",
-    "Notification.DisplayName-DoNotAsk-vcs.post.commit.checks.failed": "Commit contains problems",
-    "Notification.DoNotAsk-vcs.post.commit.checks.failed": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/giocode/IdeaProjects/programming-challenges/src/test/kotlin/me/giocode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Anthropic.case1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CoinChangeTest.coinChange.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DesignHitCounterTest.case1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DesignHitCounterTest.case2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DesignHitCounterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DiagonalDifferenceTest.diagonalDifference.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.DiagonalDifferenceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FindEstablishedUsersTest.findEstablishedUsers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FormatNumberKotlinTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FormatNumberTest.case3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FormatNumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FormatNumberTest.solution.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GroupAnagramsTest.groupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LargestRectangleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LargestRectangleTest.largestRectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ManhattanCleverTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ManhattanCleverTest.case1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ManhattanCleverTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MergeStringsAlternativelyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MinesweeperCleverTest.case1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MinesweeperCleverTest.case1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MinesweeperCleverTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PhoneSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PhoneSearchTest.solution.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PriorityQueueExampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PriorityQueueExampleTest.solution.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RandomizedSetTest.case1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RandomizedSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RandomizedSetTest.insertion order.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShortestUncommonSubstringArrayTest._242.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShortestUncommonSubstringArrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShortestUncommonSubstringArrayTest.shortestSubstrings.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShortestUncommonSubstringArrayTest.substrings.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SolutionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest.solution.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringCompressionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TwoSumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TwoSumTest.twoSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.TwoSumTest.twoSum2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TwoSumTest.twoSum3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ValidAnagramTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ValidAnagramTest.isAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.programmingChallenges [:org.kotlin.tour.BeginnerKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.programmingChallenges [:org.kotlin.tour.MapsKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.programmingChallenges [:org.kotlin.tour.PlaygroundKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-vcs.post.commit.checks.failed&quot;: &quot;Commit contains problems&quot;,
+    &quot;Notification.DoNotAsk-vcs.post.commit.checks.failed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/giocode/IdeaProjects/programming-challenges/src/test/kotlin/me/giocode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="affirm" />
       <recent name="leetcode" />
+      <recent name="affirm" />
       <recent name="me.giocode" />
       <recent name="com.anthropic" />
       <recent name="com.toptal.interview" />
@@ -200,7 +205,7 @@
       <recent name="me.giocode" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindEstablishedUsersTest.findEstablishedUsers">
+  <component name="RunManager" selected="Gradle.TwoSumTest">
     <configuration name="FindEstablishedUsersTest.findEstablishedUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -228,7 +233,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestUncommonSubstringArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -241,7 +246,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.ShortestUncommonSubstringArrayTest&quot;" />
+            <option value="&quot;leetcode.TwoSumTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -255,7 +260,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestUncommonSubstringArrayTest._242" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoSumTest.twoSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -268,7 +273,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.ShortestUncommonSubstringArrayTest._242&quot;" />
+            <option value="&quot;leetcode.TwoSumTest.twoSum&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -282,7 +287,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestUncommonSubstringArrayTest.shortestSubstrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoSumTest.twoSum2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -295,7 +300,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.ShortestUncommonSubstringArrayTest.shortestSubstrings&quot;" />
+            <option value="&quot;leetcode.TwoSumTest.twoSum2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,7 +314,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestUncommonSubstringArrayTest.substrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoSumTest.twoSum3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -322,7 +327,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.ShortestUncommonSubstringArrayTest.substrings&quot;" />
+            <option value="&quot;leetcode.TwoSumTest.twoSum3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -337,19 +342,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.TwoSumTest" />
+      <item itemvalue="Gradle.TwoSumTest.twoSum" />
+      <item itemvalue="Gradle.TwoSumTest.twoSum2" />
+      <item itemvalue="Gradle.TwoSumTest.twoSum3" />
       <item itemvalue="Gradle.FindEstablishedUsersTest.findEstablishedUsers" />
-      <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest" />
-      <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest._242" />
-      <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest.shortestSubstrings" />
-      <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest.substrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TwoSumTest" />
+        <item itemvalue="Gradle.TwoSumTest.twoSum" />
+        <item itemvalue="Gradle.TwoSumTest.twoSum2" />
+        <item itemvalue="Gradle.TwoSumTest.twoSum3" />
         <item itemvalue="Gradle.FindEstablishedUsersTest.findEstablishedUsers" />
-        <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest" />
-        <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest._242" />
-        <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest.substrings" />
-        <item itemvalue="Gradle.ShortestUncommonSubstringArrayTest.shortestSubstrings" />
       </list>
     </recent_temporary>
   </component>
@@ -411,6 +416,7 @@
         <watch expression="sum - visitedOffset" />
         <watch expression="timestamp - key" />
         <watch expression="counters.getOrDefault(key, 1)" />
+        <watch expression="candidateNums[i]" />
       </configuration>
     </watches-manager>
   </component>

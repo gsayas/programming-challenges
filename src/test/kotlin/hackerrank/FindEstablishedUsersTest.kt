@@ -1,4 +1,4 @@
-package affirm
+package hackerrank
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals

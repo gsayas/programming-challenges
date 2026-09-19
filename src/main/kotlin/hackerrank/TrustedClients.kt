@@ -1,4 +1,4 @@
-package affirm
+package hackerrank
 
 class TrustedClients {
 
