@@ -326,8 +326,8 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="AsteriscPyramidKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codesignal.AsteriscPyramidKt" />
+    <configuration name="AsteriskPyramidKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codesignal.AsteriskPyramidKt" />
       <module name="programmingChallenges.test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,12 +338,12 @@
       <item itemvalue="Gradle.TwoSumTest" />
       <item itemvalue="Gradle.TwoSumTest.twoSum" />
       <item itemvalue="Gradle.TwoSumTest.twoSum2" />
-      <item itemvalue="Kotlin.AsteriscPyramidKt" />
+      <item itemvalue="Kotlin.AsteriskPyramidKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PriorityQueueExampleTest" />
-        <item itemvalue="Kotlin.AsteriscPyramidKt" />
+        <item itemvalue="Kotlin.AsteriskPyramidKt" />
         <item itemvalue="Gradle.TwoSumTest" />
         <item itemvalue="Gradle.TwoSumTest.twoSum" />
         <item itemvalue="Gradle.TwoSumTest.twoSum2" />
