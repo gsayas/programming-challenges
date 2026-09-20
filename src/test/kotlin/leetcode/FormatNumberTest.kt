@@ -3,9 +3,9 @@ package leetcode
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class FormatNumberKotlinTest {
+class FormatNumberTest {
 
-    private val formatNumber = FormatNumberKotlin()
+    private val formatNumber = FormatNumber()
 
     @Test
     fun case1() {

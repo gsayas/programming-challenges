@@ -1,6 +1,8 @@
 package leetcode
 
-class FormatNumberKotlin {
+//https://leetcode.com/discuss/post/1155893/toptal-oa-format-number-by-eels-dev-diav/
+
+class FormatNumber {
 
     fun solution(input: String): String {
         val cleanedInput = input.replace(" ", "").replace("-", "")

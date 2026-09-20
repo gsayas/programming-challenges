@@ -1,5 +1,7 @@
 package leetcode
 
+//https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/description/?envType=company&envId=affirm&favoriteSlug=affirm-all
+
 class ShortestUncommonSubstringArray {
 
     fun shortestSubstrings(arr: Array<String>): Array<String> {

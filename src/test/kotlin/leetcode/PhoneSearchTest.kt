@@ -3,6 +3,8 @@ package leetcode
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
+//https://leetcode.com/discuss/post/943499/zalando-germany-codility-test-21-nov-20-f39b6/
+
 class PhoneSearchTest {
 
     val phoneSearch = PhoneSearch()

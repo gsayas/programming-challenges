@@ -2,6 +2,8 @@ package leetcode
 
 import kotlin.random.Random
 
+//https://leetcode.com/problems/insert-delete-getrandom-o1/description/?envType=company&envId=affirm&favoriteSlug=affirm-all
+
 class RandomizedSet {
 
     val storage = mutableListOf<Int>()
