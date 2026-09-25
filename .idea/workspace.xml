@@ -7,18 +7,8 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="housekeeping">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="Asterisk Pyramid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/FormatNumberKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/FormatNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/GraphPathExists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/GraphPathExists.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/Manhattan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/Manhattan.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/ManhattanClever.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/ManhattanClever.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/PriorityQueueExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/PriorityQueueExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/RandomizedSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/RandomizedSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/ShortestUncommonSubstringArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/ShortestUncommonSubstringArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/TwoSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/TwoSum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/leetcode/FormatNumberKotlinTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/leetcode/FormatNumberTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/leetcode/PhoneSearchTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/leetcode/PhoneSearchTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +51,9 @@
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="new-sketch" />
-        <option value="Kotlin Class" />
-        <option value="Kotlin JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -150,6 +140,7 @@
     "Gradle.PhoneSearchTest.solution.executor": "Run",
     "Gradle.PriorityQueueExampleTest.executor": "Run",
     "Gradle.PriorityQueueExampleTest.solution.executor": "Run",
+    "Gradle.ProductArrayButSelfTest.executor": "Run",
     "Gradle.RandomizedSetTest.case1.executor": "Run",
     "Gradle.RandomizedSetTest.executor": "Run",
     "Gradle.RandomizedSetTest.insertion order.executor": "Run",
@@ -217,7 +208,7 @@
       <recent name="me.giocode" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PriorityQueueExampleTest">
+  <component name="RunManager" selected="Gradle.ProductArrayButSelfTest">
     <configuration name="PriorityQueueExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -232,6 +223,33 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.PriorityQueueExampleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductArrayButSelfTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.ProductArrayButSelfTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -299,33 +317,6 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumTest.twoSum2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.TwoSumTest.twoSum2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
     <configuration name="AsteriskPyramidKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codesignal.AsteriskPyramidKt" />
       <module name="programmingChallenges.test" />
@@ -334,19 +325,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.ProductArrayButSelfTest" />
       <item itemvalue="Gradle.PriorityQueueExampleTest" />
       <item itemvalue="Gradle.TwoSumTest" />
       <item itemvalue="Gradle.TwoSumTest.twoSum" />
-      <item itemvalue="Gradle.TwoSumTest.twoSum2" />
       <item itemvalue="Kotlin.AsteriskPyramidKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProductArrayButSelfTest" />
         <item itemvalue="Gradle.PriorityQueueExampleTest" />
         <item itemvalue="Kotlin.AsteriskPyramidKt" />
         <item itemvalue="Gradle.TwoSumTest" />
         <item itemvalue="Gradle.TwoSumTest.twoSum" />
-        <item itemvalue="Gradle.TwoSumTest.twoSum2" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +392,9 @@
     <MESSAGE value="ShortestUncommonSubstring" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="housekeeping" />
-    <option name="LAST_COMMIT_MESSAGE" value="housekeeping" />
+    <MESSAGE value="added problem statements" />
+    <MESSAGE value="Asterisk Pyramid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Asterisk Pyramid" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
