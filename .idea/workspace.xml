@@ -7,8 +7,12 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="Asterisk Pyramid">
+    <list default="true" id="9b10a230-0469-4a0d-b6a1-a818488d49ea" name="Changes" comment="after balances and requests">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coderbyte/CodingChallenge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codesignal/AsteriskPyramid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/codesignal/AsteriskPyramid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlintour/Kata.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlintour/Maps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlintour/Collections.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +56,8 @@
         <option value="JUnit5 Test Class" />
         <option value="new-sketch" />
         <option value="Kotlin File" />
-        <option value="Kotlin JUnit5 Test Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -115,6 +119,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Anthropic.case1.executor": "Run",
+    "Gradle.CodingChallengeTest.executor": "Run",
     "Gradle.CoinChangeTest.coinChange.executor": "Run",
     "Gradle.DesignHitCounterTest.case1.executor": "Run",
     "Gradle.DesignHitCounterTest.case2.executor": "Run",
@@ -157,7 +162,10 @@
     "Gradle.TwoSumTest.twoSum3.executor": "Run",
     "Gradle.ValidAnagramTest.executor": "Run",
     "Gradle.ValidAnagramTest.isAnagram.executor": "Run",
+    "Gradle.programming-challenges [:coderbyte.CodingChallengeKt.main()].executor": "Run",
     "Gradle.programming-challenges [:codesignal.AsteriscPyramidKt.main()].executor": "Run",
+    "Gradle.programming-challenges [:codesignal.AsteriskPyramidKt.main()].executor": "Run",
+    "Gradle.programming-challenges [:kotlintour.MapTranformationsKt.main()].executor": "Run",
     "Gradle.programmingChallenges [:org.kotlin.tour.BeginnerKt.main()].executor": "Run",
     "Gradle.programmingChallenges [:org.kotlin.tour.MapsKt.main()].executor": "Run",
     "Gradle.programmingChallenges [:org.kotlin.tour.PlaygroundKt.main()].executor": "Run",
@@ -197,19 +205,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="coderbyte" />
       <recent name="leetcode" />
       <recent name="affirm" />
       <recent name="me.giocode" />
       <recent name="com.anthropic" />
-      <recent name="com.toptal.interview" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="coderbyte" />
       <recent name="hackerrank" />
       <recent name="me.giocode" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProductArrayButSelfTest">
-    <configuration name="PriorityQueueExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Kotlin.AsteriskPyramidKt">
+    <configuration name="CodingChallengeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -222,7 +231,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.PriorityQueueExampleTest&quot;" />
+            <option value="&quot;coderbyte.CodingChallengeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -263,81 +272,41 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.TwoSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoSumTest.twoSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.TwoSumTest.twoSum&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
     <configuration name="AsteriskPyramidKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codesignal.AsteriskPyramidKt" />
-      <module name="programmingChallenges.test" />
+      <module name="programmingChallenges.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodingChallengeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coderbyte.CodingChallengeKt" />
+      <module name="programmingChallenges.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTranformationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlintour.MapTranformationsKt" />
+      <module name="programmingChallenges.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.CodingChallengeTest" />
       <item itemvalue="Gradle.ProductArrayButSelfTest" />
-      <item itemvalue="Gradle.PriorityQueueExampleTest" />
-      <item itemvalue="Gradle.TwoSumTest" />
-      <item itemvalue="Gradle.TwoSumTest.twoSum" />
+      <item itemvalue="Kotlin.CodingChallengeKt" />
+      <item itemvalue="Kotlin.MapTranformationsKt" />
       <item itemvalue="Kotlin.AsteriskPyramidKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProductArrayButSelfTest" />
-        <item itemvalue="Gradle.PriorityQueueExampleTest" />
         <item itemvalue="Kotlin.AsteriskPyramidKt" />
-        <item itemvalue="Gradle.TwoSumTest" />
-        <item itemvalue="Gradle.TwoSumTest.twoSum" />
+        <item itemvalue="Kotlin.MapTranformationsKt" />
+        <item itemvalue="Gradle.CodingChallengeTest" />
+        <item itemvalue="Kotlin.CodingChallengeKt" />
+        <item itemvalue="Gradle.ProductArrayButSelfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +363,8 @@
     <MESSAGE value="housekeeping" />
     <MESSAGE value="added problem statements" />
     <MESSAGE value="Asterisk Pyramid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Asterisk Pyramid" />
+    <MESSAGE value="after balances and requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="after balances and requests" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
